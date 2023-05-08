@@ -1,0 +1,44 @@
+diff --git a/goh/constanth/operations.go b/goh/constanth/operations.go
+index e534dac..2df4268 100644
+--- a/goh/constanth/operations.go
++++ b/goh/constanth/operations.go
+@@ -3,10 +3,11 @@ package constanth
+ import (
+ 	"errors"
+ 	"fmt"
+-	"github.com/apaxa-go/helper/goh/tokenh"
+-	"github.com/apaxa-go/helper/strconvh"
+ 	"go/constant"
+ 	"go/token"
++
++	"github.com/apaxa-go/helper/goh/tokenh"
++	"github.com/apaxa-go/helper/strconvh"
+ )
+ 
+ // CompareOp performs compare operation <x><op><y> on untyped constants as Go language specification describes.
+@@ -26,7 +27,7 @@ func CompareOp(x constant.Value, op token.Token, y constant.Value) (r bool, err
+ // Supported operations: < <= >= > == != .
+ // If operation cannot be performed then error will be returned.
+ func CompareOpTyped(x TypedValue, op token.Token, y TypedValue) (r bool, err error) {
+-	if x.t != y.t {
++	if x.t != y.t && x.v.Kind() != y.v.Kind() {
+ 		return false, errors.New("unable to compare " + x.t.String() + " " + op.String() + " " + y.t.String() + ": different types")
+ 	}
+ 	if !tokenh.IsComparison(op) {
+@@ -56,10 +57,14 @@ func BinaryOp(x constant.Value, op token.Token, y constant.Value) (r constant.Va
+ // Supported operations: && || + - * / % & | ^ &^ .
+ // If operation cannot be performed then error will be returned.
+ func BinaryOpTyped(x TypedValue, op token.Token, y TypedValue) (r TypedValue, err error) {
+-	if x.t != y.t {
++	if x.t != y.t && x.v.Kind() != y.v.Kind() {
+ 		return TypedValue{}, errors.New("unable to perform binary operation " + x.t.String() + " " + op.String() + " " + y.t.String() + ": different types")
+ 	}
+-	r.t = x.t
++	if x.t.Size() > y.t.Size() {
++		r.t = x.t
++	} else {
++		r.t = y.t
++	}
+ 	r.v, err = BinaryOp(x.v, op, y.v)
+ 	if err != nil {
+ 		return TypedValue{}, err
