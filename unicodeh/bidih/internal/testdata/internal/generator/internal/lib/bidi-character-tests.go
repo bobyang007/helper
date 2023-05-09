@@ -2,10 +2,10 @@ package lib
 
 import (
 	"bytes"
-	"eval_helper/mathh"
-	"eval_helper/strconvh"
-	"eval_helper/stringsh"
-	"eval_helper/unicodeh/internal/ucd"
+	"helper/mathh"
+	"helper/strconvh"
+	"helper/stringsh"
+	"helper/unicodeh/internal/ucd"
 	"fmt"
 	"os"
 )

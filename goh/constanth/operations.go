@@ -6,8 +6,8 @@ import (
 	"go/constant"
 	"go/token"
 
-	"eval_helper/goh/tokenh"
-	"eval_helper/strconvh"
+	"helper/goh/tokenh"
+	"helper/strconvh"
 )
 
 // CompareOp performs compare operation <x><op><y> on untyped constants as Go language specification describes.

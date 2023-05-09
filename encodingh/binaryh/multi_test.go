@@ -3,8 +3,8 @@ package binaryh
 import (
 	"bytes"
 	"encoding/binary"
-	"eval_helper/bytesh"
-	"eval_helper/testingh/iotesth"
+	"helper/bytesh"
+	"helper/testingh/iotesth"
 	"io"
 	"reflect"
 	"testing"

@@ -1,7 +1,7 @@
 package constanth
 
 import (
-	"eval_helper/reflecth"
+	"helper/reflecth"
 	"go/constant"
 	"go/token"
 	"reflect"

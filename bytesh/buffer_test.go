@@ -2,7 +2,7 @@ package bytesh
 
 import (
 	"bytes"
-	"eval_helper/testingh/iotesth"
+	"helper/testingh/iotesth"
 	"io"
 	"testing"
 	"testing/iotest"

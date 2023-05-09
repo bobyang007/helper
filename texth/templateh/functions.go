@@ -3,8 +3,8 @@ package templateh
 
 import (
 	"errors"
-	"eval_helper/mathh"
-	"eval_helper/strconvh"
+	"helper/mathh"
+	"helper/strconvh"
 )
 
 // NewEmptySlice returns new empty slice of integers with length and capacity = n.

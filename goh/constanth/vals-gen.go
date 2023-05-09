@@ -3,7 +3,7 @@
 package constanth
 
 import (
-	"eval_helper/mathh"
+	"helper/mathh"
 	"go/constant"
 )
 

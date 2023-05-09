@@ -1,6 +1,6 @@
 package boundaryh
 
-import "eval_helper/unicodeh"
+import "helper/unicodeh"
 
 type lClass uint8
 

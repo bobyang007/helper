@@ -1,7 +1,7 @@
 package bidih
 
 import (
-	"eval_helper/unicodeh/bidih/internal/bidi"
+	"helper/unicodeh/bidih/internal/bidi"
 )
 
 // Maximum explicit embedding level.

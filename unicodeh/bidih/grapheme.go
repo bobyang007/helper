@@ -2,10 +2,10 @@ package bidih
 
 /*
 import (
-	"eval_helper/unicodeh/boundaryh"
-	"eval_helper/unicodeh/bidih/internal/bidi"
+	"helper/unicodeh/boundaryh"
+	"helper/unicodeh/bidih/internal/bidi"
 	"sort"
-	"eval_helper/unicodeh"
+	"helper/unicodeh"
 	"log"
 )
 

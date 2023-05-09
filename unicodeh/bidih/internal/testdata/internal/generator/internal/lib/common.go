@@ -1,9 +1,9 @@
 package lib
 
 import (
-	"eval_helper/mathh"
-	"eval_helper/strconvh"
-	"eval_helper/unicodeh/bidih/internal/bidi"
+	"helper/mathh"
+	"helper/strconvh"
+	"helper/unicodeh/bidih/internal/bidi"
 	"go/format"
 	"io/ioutil"
 	"strings"

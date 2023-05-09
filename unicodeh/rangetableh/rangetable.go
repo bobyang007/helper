@@ -1,8 +1,8 @@
 package rangetableh
 
 import (
-	"eval_helper/mathh"
-	"eval_helper/strconvh"
+	"helper/mathh"
+	"helper/strconvh"
 	"strconv"
 	"unicode"
 

@@ -1,9 +1,9 @@
 package goutilh
 
 import (
-	"eval_helper/bytesh"
-	"eval_helper/mathh"
-	"eval_helper/testingh/iotesth"
+	"helper/bytesh"
+	"helper/mathh"
+	"helper/testingh/iotesth"
 	"io"
 	"reflect"
 	"runtime"

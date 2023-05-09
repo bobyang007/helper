@@ -2,10 +2,10 @@ package is_generator
 
 import (
 	"bytes"
-	"eval_helper/stringsh"
-	"eval_helper/unicodeh/internal/generator/name"
-	"eval_helper/unicodeh/internal/generator/ucdparser"
-	"eval_helper/unicodeh/rangetableh"
+	"helper/stringsh"
+	"helper/unicodeh/internal/generator/name"
+	"helper/unicodeh/internal/generator/ucdparser"
+	"helper/unicodeh/rangetableh"
 	"strings"
 	"unicode"
 )

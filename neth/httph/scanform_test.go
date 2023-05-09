@@ -2,7 +2,7 @@ package httph
 
 import (
 	"errors"
-	"eval_helper/mathh"
+	"helper/mathh"
 	"net/http/httptest"
 	"net/url"
 	"os"

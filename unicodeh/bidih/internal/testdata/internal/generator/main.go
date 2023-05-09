@@ -1,7 +1,7 @@
 package main
 
 import (
-	"eval_helper/unicodeh/bidih/internal/testdata/internal/generator/internal/lib"
+	"helper/unicodeh/bidih/internal/testdata/internal/generator/internal/lib"
 	"os"
 )
 

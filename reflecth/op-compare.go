@@ -1,8 +1,8 @@
 package reflecth
 
 import (
-	"eval_helper/goh/tokenh"
-	"eval_helper/strconvh"
+	"helper/goh/tokenh"
+	"helper/strconvh"
 	"go/token"
 	"reflect"
 )

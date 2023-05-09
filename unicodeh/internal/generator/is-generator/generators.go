@@ -2,8 +2,8 @@ package is_generator
 
 import (
 	"bytes"
-	"eval_helper/mathh"
-	"eval_helper/unicodeh/rangetableh"
+	"helper/mathh"
+	"helper/unicodeh/rangetableh"
 	"strconv"
 	"strings"
 	"unicode"

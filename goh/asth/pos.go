@@ -1,7 +1,7 @@
 package asth
 
 import (
-	"eval_helper/strconvh"
+	"helper/strconvh"
 	"go/ast"
 	"go/token"
 )

@@ -1,7 +1,7 @@
 package name
 
 import (
-	"eval_helper/stringsh"
+	"helper/stringsh"
 	"strings"
 	"unicode"
 	"unicode/utf8"

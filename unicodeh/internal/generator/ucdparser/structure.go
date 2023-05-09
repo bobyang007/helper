@@ -1,8 +1,8 @@
 package ucdparser
 
 import (
-	"eval_helper/stringsh"
-	"eval_helper/unicodeh/rangetableh"
+	"helper/stringsh"
+	"helper/unicodeh/rangetableh"
 	"log"
 	"strings"
 	"unicode"

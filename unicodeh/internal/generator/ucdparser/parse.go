@@ -1,8 +1,8 @@
 package ucdparser
 
 import (
-	"eval_helper/unicodeh/internal/ucd"
-	"eval_helper/unicodeh/rangetableh"
+	"helper/unicodeh/internal/ucd"
+	"helper/unicodeh/rangetableh"
 	"fmt"
 	"os"
 	"unicode"

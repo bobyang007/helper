@@ -2,8 +2,8 @@ package main
 
 import (
 	"bytes"
-	"eval_helper/unicodeh"
-	"eval_helper/unicodeh/bidih/internal/bidi"
+	"helper/unicodeh"
+	"helper/unicodeh/bidih/internal/bidi"
 	"go/format"
 	"io/ioutil"
 	"strconv"

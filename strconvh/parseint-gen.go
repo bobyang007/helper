@@ -3,7 +3,7 @@
 package strconvh
 
 import (
-	"eval_helper/mathh"
+	"helper/mathh"
 	"strconv"
 )
 

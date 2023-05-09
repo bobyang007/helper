@@ -2,8 +2,8 @@ package filepathh
 
 import (
 	"errors"
-	"eval_helper/ioh/ioutilh"
-	"eval_helper/strconvh"
+	"helper/ioh/ioutilh"
+	"helper/strconvh"
 	"io/ioutil"
 	"os"
 	"reflect"

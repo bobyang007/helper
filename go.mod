@@ -1,4 +1,4 @@
-module eval_helper
+module helper
 
 go 1.19
 

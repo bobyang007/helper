@@ -1,7 +1,7 @@
 package httph
 
 import (
-	"eval_helper/timeh"
+	"helper/timeh"
 	"testing"
 )
 

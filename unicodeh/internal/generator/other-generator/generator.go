@@ -2,7 +2,7 @@ package other_generator
 
 import (
 	"bytes"
-	"eval_helper/unicodeh/internal/ucd"
+	"helper/unicodeh/internal/ucd"
 	"os"
 	"strconv"
 	"strings"

@@ -2,8 +2,8 @@ package ctlh
 
 /*
 import (
-	"eval_helper/unicodeh/boundaryh"
-	"eval_helper/unicodeh/bidih"
+	"helper/unicodeh/boundaryh"
+	"helper/unicodeh/bidih"
 )
 
 type Drawer interface {}

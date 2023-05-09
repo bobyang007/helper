@@ -1,7 +1,7 @@
 package ctlh
 
 /*
-import "eval_helper/unicodeh/boundaryh"
+import "helper/unicodeh/boundaryh"
 
 // TODO move this file to package ~font
 

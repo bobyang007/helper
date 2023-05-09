@@ -1,8 +1,8 @@
 package reflecth
 
 import (
-	"eval_helper/goh/asth"
-	"eval_helper/strconvh"
+	"helper/goh/asth"
+	"helper/strconvh"
 	"go/ast"
 	"reflect"
 	"testing"

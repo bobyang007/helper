@@ -2,7 +2,7 @@ package ucdparser
 
 import (
 	"bufio"
-	"eval_helper/unicodeh/internal/ucd"
+	"helper/unicodeh/internal/ucd"
 	"os"
 	"regexp"
 	"strings"
