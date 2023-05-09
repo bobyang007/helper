@@ -1,7 +1,7 @@
 package strconvh
 
 import (
-	"github.com/apaxa-go/helper/mathh"
+	"eval_helper/mathh"
 	"testing"
 )
 

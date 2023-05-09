@@ -2,7 +2,7 @@ package ucdparser
 
 import (
 	"bufio"
-	"github.com/apaxa-go/helper/unicodeh/internal/ucd"
+	"eval_helper/unicodeh/internal/ucd"
 	"os"
 	"regexp"
 	"strings"

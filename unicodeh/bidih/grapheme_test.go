@@ -4,7 +4,7 @@ package bidih
 
 import (
 	"testing"
-	"github.com/apaxa-go/helper/unicodeh/bidih/internal/testdata"
+	"eval_helper/unicodeh/bidih/internal/testdata"
 	"reflect"
 )
 

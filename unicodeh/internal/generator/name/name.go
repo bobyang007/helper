@@ -1,7 +1,7 @@
 package name
 
 import (
-	"github.com/apaxa-go/helper/stringsh"
+	"eval_helper/stringsh"
 	"strings"
 	"unicode"
 	"unicode/utf8"

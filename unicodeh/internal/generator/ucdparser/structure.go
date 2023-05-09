@@ -1,12 +1,13 @@
 package ucdparser
 
 import (
-	"github.com/apaxa-go/helper/stringsh"
-	"github.com/apaxa-go/helper/unicodeh/rangetableh"
-	"golang.org/x/text/unicode/rangetable"
+	"eval_helper/stringsh"
+	"eval_helper/unicodeh/rangetableh"
 	"log"
 	"strings"
 	"unicode"
+
+	"golang.org/x/text/unicode/rangetable"
 )
 
 type Value struct {

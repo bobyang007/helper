@@ -1,7 +1,7 @@
 package constanth
 
 import (
-	"github.com/apaxa-go/helper/reflecth"
+	"eval_helper/reflecth"
 	"go/constant"
 	"go/token"
 	"reflect"

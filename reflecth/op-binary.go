@@ -1,14 +1,13 @@
 package reflecth
 
 import (
-	"github.com/apaxa-go/helper/strconvh"
+	"eval_helper/strconvh"
 	"go/token"
+	"reflect"
 )
 
 //replacer:ignore
 //go:generate go run $GOPATH/src/github.com/apaxa-go/generator/replacer/main.go -- $GOFILE
-
-import "reflect"
 
 //replacer:ignore
 //go:generate go run $GOPATH/src/github.com/apaxa-go/generator/replacer/main.go -- $GOFILE

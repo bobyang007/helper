@@ -1,7 +1,7 @@
 package httph
 
 import (
-	"github.com/apaxa-go/helper/timeh"
+	"eval_helper/timeh"
 	"testing"
 )
 

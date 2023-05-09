@@ -1,16 +1,17 @@
 package main
 
 import (
+	"eval_helper/unicodeh"
+	"eval_helper/unicodeh/rangetableh"
 	"fmt"
-	"github.com/apaxa-go/helper/unicodeh"
-	"github.com/apaxa-go/helper/unicodeh/rangetableh"
 	"go/format"
-	"golang.org/x/text/unicode/rangetable"
 	"io/ioutil"
 	"log"
 	"os"
 	"strings"
 	"unicode"
+
+	"golang.org/x/text/unicode/rangetable"
 )
 
 const (

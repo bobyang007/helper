@@ -2,7 +2,7 @@ package other_generator
 
 import (
 	"bytes"
-	"github.com/apaxa-go/helper/unicodeh/internal/ucd"
+	"eval_helper/unicodeh/internal/ucd"
 	"os"
 	"strconv"
 	"strings"

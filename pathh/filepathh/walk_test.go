@@ -2,8 +2,8 @@ package filepathh
 
 import (
 	"errors"
-	"github.com/apaxa-go/helper/ioh/ioutilh"
-	"github.com/apaxa-go/helper/strconvh"
+	"eval_helper/ioh/ioutilh"
+	"eval_helper/strconvh"
 	"io/ioutil"
 	"os"
 	"reflect"

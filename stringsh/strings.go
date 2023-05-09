@@ -2,10 +2,11 @@
 package stringsh
 
 import (
-	"github.com/apaxa-go/helper/unicodeh"
-	"golang.org/x/text/unicode/norm"
+	"eval_helper/unicodeh"
 	"strings"
 	"unicode/utf8"
+
+	"golang.org/x/text/unicode/norm"
 )
 
 // Len returns number of glyph in UTF-8 encoded string.

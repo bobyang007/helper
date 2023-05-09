@@ -1,7 +1,7 @@
 package reflecth
 
 import (
-	"github.com/apaxa-go/helper/mathh"
+	"eval_helper/mathh"
 	"go/token"
 	"reflect"
 	"testing"

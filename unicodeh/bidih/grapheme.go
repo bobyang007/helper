@@ -2,10 +2,10 @@ package bidih
 
 /*
 import (
-	"github.com/apaxa-go/helper/unicodeh/boundaryh"
-	"github.com/apaxa-go/helper/unicodeh/bidih/internal/bidi"
+	"eval_helper/unicodeh/boundaryh"
+	"eval_helper/unicodeh/bidih/internal/bidi"
 	"sort"
-	"github.com/apaxa-go/helper/unicodeh"
+	"eval_helper/unicodeh"
 	"log"
 )
 

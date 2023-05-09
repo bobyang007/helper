@@ -4,7 +4,7 @@ package bytesh
 
 import (
 	"errors"
-	"github.com/apaxa-go/helper/mathh"
+	"eval_helper/mathh"
 	"io"
 	"math"
 )

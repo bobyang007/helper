@@ -1,8 +1,8 @@
 package reflecth
 
 import (
-	"github.com/apaxa-go/helper/goh/tokenh"
-	"github.com/apaxa-go/helper/strconvh"
+	"eval_helper/goh/tokenh"
+	"eval_helper/strconvh"
 	"go/token"
 	"reflect"
 )

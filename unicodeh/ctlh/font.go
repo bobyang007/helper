@@ -1,7 +1,7 @@
 package ctlh
 
 /*
-import "github.com/apaxa-go/helper/unicodeh/boundaryh"
+import "eval_helper/unicodeh/boundaryh"
 
 // TODO move this file to package ~font
 

@@ -1,11 +1,12 @@
 package main
 
 import (
-	"github.com/apaxa-go/helper/unicodeh"
-	"github.com/apaxa-go/helper/unicodeh/rangetableh"
-	"golang.org/x/text/unicode/norm"
+	"eval_helper/unicodeh"
+	"eval_helper/unicodeh/rangetableh"
 	"log"
 	"unicode"
+
+	"golang.org/x/text/unicode/norm"
 )
 
 // TODO use this for assumption and remove

@@ -1,6 +1,6 @@
 package boundaryh
 
-import "github.com/apaxa-go/helper/unicodeh"
+import "eval_helper/unicodeh"
 
 type lClass uint8
 

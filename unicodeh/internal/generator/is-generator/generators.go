@@ -2,8 +2,8 @@ package is_generator
 
 import (
 	"bytes"
-	"github.com/apaxa-go/helper/mathh"
-	"github.com/apaxa-go/helper/unicodeh/rangetableh"
+	"eval_helper/mathh"
+	"eval_helper/unicodeh/rangetableh"
 	"strconv"
 	"strings"
 	"unicode"

@@ -2,7 +2,7 @@ package httph
 
 import (
 	"errors"
-	"github.com/apaxa-go/helper/strconvh"
+	"eval_helper/strconvh"
 	"net/http"
 )
 

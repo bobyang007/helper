@@ -2,7 +2,7 @@ package bytesh
 
 import (
 	"bytes"
-	"github.com/apaxa-go/helper/testingh/iotesth"
+	"eval_helper/testingh/iotesth"
 	"io"
 	"testing"
 	"testing/iotest"

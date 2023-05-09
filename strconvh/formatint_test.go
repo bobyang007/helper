@@ -1,13 +1,13 @@
 package strconvh
 
 import (
-	"github.com/apaxa-go/helper/mathh"
+	"eval_helper/mathh"
+	"runtime"
 	"testing"
 )
 
 //replacer:ignore
 //go:generate go run $GOPATH/src/github.com/apaxa-go/generator/replacer/main.go -- $GOFILE
-import "runtime"
 
 const (
 	maxUint8Str = "255"

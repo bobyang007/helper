@@ -2,8 +2,8 @@ package ctlh
 
 /*
 import (
-	"github.com/apaxa-go/helper/unicodeh/boundaryh"
-	"github.com/apaxa-go/helper/unicodeh/bidih"
+	"eval_helper/unicodeh/boundaryh"
+	"eval_helper/unicodeh/bidih"
 )
 
 type Drawer interface {}

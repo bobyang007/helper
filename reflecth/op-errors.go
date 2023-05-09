@@ -2,7 +2,7 @@ package reflecth
 
 import (
 	"errors"
-	"github.com/apaxa-go/helper/strconvh"
+	"eval_helper/strconvh"
 	"go/token"
 	"reflect"
 )

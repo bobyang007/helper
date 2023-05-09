@@ -2,7 +2,7 @@ package httph
 
 import (
 	"errors"
-	"github.com/apaxa-go/helper/mathh"
+	"eval_helper/mathh"
 	"net/http/httptest"
 	"net/url"
 	"os"

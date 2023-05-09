@@ -1,7 +1,7 @@
 package bidih
 
 import (
-	"github.com/apaxa-go/helper/unicodeh/bidih/internal/bidi"
+	"eval_helper/unicodeh/bidih/internal/bidi"
 )
 
 // Rules P2 & P3

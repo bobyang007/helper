@@ -1,7 +1,7 @@
 package httph
 
 import (
-	"github.com/apaxa-go/helper/mimeh"
+	"eval_helper/mimeh"
 	"net/http"
 	"net/http/httptest"
 	"testing"

@@ -1,11 +1,12 @@
 package rangetableh
 
 import (
-	"github.com/apaxa-go/helper/mathh"
-	"github.com/apaxa-go/helper/strconvh"
-	"golang.org/x/text/unicode/rangetable"
+	"eval_helper/mathh"
+	"eval_helper/strconvh"
 	"strconv"
 	"unicode"
+
+	"golang.org/x/text/unicode/rangetable"
 )
 
 const MinR32 = 1 << 16 // Minimal possible value for R32 (all smaller value should be in R16).

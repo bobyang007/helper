@@ -2,8 +2,8 @@ package main
 
 import (
 	"bytes"
+	"eval_helper/unicodeh/internal/ucd"
 	"fmt"
-	"github.com/apaxa-go/helper/unicodeh/internal/ucd"
 	"go/format"
 	"io/ioutil"
 	"os"

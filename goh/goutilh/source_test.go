@@ -1,9 +1,9 @@
 package goutilh
 
 import (
-	"github.com/apaxa-go/helper/bytesh"
-	"github.com/apaxa-go/helper/mathh"
-	"github.com/apaxa-go/helper/testingh/iotesth"
+	"eval_helper/bytesh"
+	"eval_helper/mathh"
+	"eval_helper/testingh/iotesth"
 	"io"
 	"reflect"
 	"runtime"

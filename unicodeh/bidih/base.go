@@ -1,8 +1,8 @@
 package bidih
 
 import (
-	"github.com/apaxa-go/helper/mathh"
-	"github.com/apaxa-go/helper/unicodeh/bidih/internal/bidi"
+	"eval_helper/mathh"
+	"eval_helper/unicodeh/bidih/internal/bidi"
 )
 
 type EmbeddingLevel uint8
@@ -36,7 +36,7 @@ type Text struct {
 func Parse(str string, paragraphEmbeddingLevel EmbeddingLevel) []rune {
 	t := Text{
 		// User defined
-		str: str,
+		str:                     str,
 		paragraphEmbeddingLevel: paragraphEmbeddingLevel,
 		// Caches
 		// Result

@@ -1,14 +1,13 @@
 package strconvh
 
-import "strconv"
+import (
+	"eval_helper/stringsh"
+	"strconv"
+	"strings"
+)
 
 //replacer:ignore
 //go:generate go run $GOPATH/src/github.com/apaxa-go/generator/replacer/main.go -- $GOFILE
-
-import (
-	"github.com/apaxa-go/helper/stringsh"
-	"strings"
-)
 
 // Empty real or imag result means that this part is absent in string.
 // Function strip ending 'i' in imag part, so both returned real and imag ready for parsing float (if not empty).

@@ -1,14 +1,13 @@
 package constanth
 
 import (
-	"github.com/apaxa-go/helper/mathh"
+	"eval_helper/mathh"
 	"go/constant"
+	"math"
 )
 
 //replacer:ignore
 //go:generate go run $GOPATH/src/github.com/apaxa-go/generator/replacer/main.go -- $GOFILE
-
-import "math"
 
 // BoolVal returns the Go boolean value of x and whether operation successful.
 func BoolVal(x constant.Value) (r bool, ok bool) {

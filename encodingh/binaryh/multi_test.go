@@ -3,8 +3,8 @@ package binaryh
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/apaxa-go/helper/bytesh"
-	"github.com/apaxa-go/helper/testingh/iotesth"
+	"eval_helper/bytesh"
+	"eval_helper/testingh/iotesth"
 	"io"
 	"reflect"
 	"testing"

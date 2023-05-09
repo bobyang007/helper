@@ -1,12 +1,13 @@
 package ucdparser
 
 import (
+	"eval_helper/unicodeh/internal/ucd"
+	"eval_helper/unicodeh/rangetableh"
 	"fmt"
-	"github.com/apaxa-go/helper/unicodeh/internal/ucd"
-	"github.com/apaxa-go/helper/unicodeh/rangetableh"
-	"golang.org/x/text/unicode/rangetable"
 	"os"
 	"unicode"
+
+	"golang.org/x/text/unicode/rangetable"
 )
 
 type ParseDetails struct {

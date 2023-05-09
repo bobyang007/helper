@@ -3,8 +3,8 @@
 package goutilh
 
 import (
+	"eval_helper/strconvh"
 	"fmt"
-	"github.com/apaxa-go/helper/strconvh"
 	"go/ast"
 	"go/printer"
 	"go/token"

@@ -1,8 +1,8 @@
 package bidih
 
 import (
-	"github.com/apaxa-go/helper/unicodeh"
-	"github.com/apaxa-go/helper/unicodeh/bidih/internal/bidi"
+	"eval_helper/unicodeh"
+	"eval_helper/unicodeh/bidih/internal/bidi"
 )
 
 // = FSI, LRI, RLI, and PDI

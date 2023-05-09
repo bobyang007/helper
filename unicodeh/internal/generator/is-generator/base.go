@@ -2,10 +2,10 @@ package is_generator
 
 import (
 	"bytes"
-	"github.com/apaxa-go/helper/stringsh"
-	"github.com/apaxa-go/helper/unicodeh/internal/generator/name"
-	"github.com/apaxa-go/helper/unicodeh/internal/generator/ucdparser"
-	"github.com/apaxa-go/helper/unicodeh/rangetableh"
+	"eval_helper/stringsh"
+	"eval_helper/unicodeh/internal/generator/name"
+	"eval_helper/unicodeh/internal/generator/ucdparser"
+	"eval_helper/unicodeh/rangetableh"
 	"strings"
 	"unicode"
 )

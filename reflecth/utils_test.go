@@ -1,8 +1,8 @@
 package reflecth
 
 import (
-	"github.com/apaxa-go/helper/goh/asth"
-	"github.com/apaxa-go/helper/strconvh"
+	"eval_helper/goh/asth"
+	"eval_helper/strconvh"
 	"go/ast"
 	"reflect"
 	"testing"

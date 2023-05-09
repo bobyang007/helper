@@ -3,8 +3,8 @@ package templateh
 
 import (
 	"errors"
-	"github.com/apaxa-go/helper/mathh"
-	"github.com/apaxa-go/helper/strconvh"
+	"eval_helper/mathh"
+	"eval_helper/strconvh"
 )
 
 // NewEmptySlice returns new empty slice of integers with length and capacity = n.

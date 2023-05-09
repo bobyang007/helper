@@ -2,8 +2,8 @@ package main
 
 import (
 	"bytes"
-	"github.com/apaxa-go/helper/unicodeh"
-	"github.com/apaxa-go/helper/unicodeh/bidih/internal/bidi"
+	"eval_helper/unicodeh"
+	"eval_helper/unicodeh/bidih/internal/bidi"
 	"go/format"
 	"io/ioutil"
 	"strconv"

@@ -1,7 +1,7 @@
 package reflecth
 
 import (
-	"github.com/apaxa-go/helper/goh/asth"
+	"eval_helper/goh/asth"
 	"go/ast"
 	"reflect"
 )
