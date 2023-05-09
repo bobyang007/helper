@@ -1,30 +1,30 @@
 package lib
 
 import (
-	"strings"
-	"github.com/apaxa-go/helper/strconvh"
-	"github.com/apaxa-go/helper/mathh"
-	"github.com/apaxa-go/helper/unicodeh/bidih/internal/bidi"
+	"eval_helper/mathh"
+	"eval_helper/strconvh"
+	"eval_helper/unicodeh/bidih/internal/bidi"
 	"go/format"
 	"io/ioutil"
+	"strings"
 )
 
-const maxFileSize = 1024*1024
+const maxFileSize = 1024 * 1024
 const numLen = 3
 const pkgName = "testdata"
 
-func saveFile(fileName string, packageName string, imports []string, data []byte){
-	start:="package "+packageName+"\n\n"
-	for _,i:=range imports{
-		start+="import \""+i+"\"\n"
+func saveFile(fileName string, packageName string, imports []string, data []byte) {
+	start := "package " + packageName + "\n\n"
+	for _, i := range imports {
+		start += "import \"" + i + "\"\n"
 	}
-	start+="\n"
+	start += "\n"
 
-	data=append([]byte(start),data...)
+	data = append([]byte(start), data...)
 
 	data, err := format.Source(data)
-	if err!=nil{
-		panic("Syntax error in file "+fileName+": "+err.Error())
+	if err != nil {
+		panic("Syntax error in file " + fileName + ": " + err.Error())
 	}
 
 	if err := ioutil.WriteFile(fileName, data, 0); err != nil {
@@ -32,17 +32,17 @@ func saveFile(fileName string, packageName string, imports []string, data []byte
 	}
 }
 
-func parseLevels(str string)string{
-	str=strings.Replace(str," ",",",-1)
-	str=strings.Replace(str,"x",strconvh.FormatUint8(mathh.MaxUint8),-1)
+func parseLevels(str string) string {
+	str = strings.Replace(str, " ", ",", -1)
+	str = strings.Replace(str, "x", strconvh.FormatUint8(mathh.MaxUint8), -1)
 	return str
 }
 
-func parseOrders(str string)string{
-	return strings.Replace(str," ",",",-1)
+func parseOrders(str string) string {
+	return strings.Replace(str, " ", ",", -1)
 }
 
-func parseClass(str string)bidi.Class{
+func parseClass(str string) bidi.Class {
 	switch str {
 	case "AL":
 		return bidi.ArabicLetter
@@ -95,11 +95,11 @@ func parseClass(str string)bidi.Class{
 	}
 }
 
-func parseClasses(str string)[]string{
-	classeStrs:=strings.Split(str," ")
-	r:=make([]string,len(classeStrs))
-	for i,v:=range classeStrs{
-		r[i]=strconvh.FormatUint(uint(parseClass(v)))
+func parseClasses(str string) []string {
+	classeStrs := strings.Split(str, " ")
+	r := make([]string, len(classeStrs))
+	for i, v := range classeStrs {
+		r[i] = strconvh.FormatUint(uint(parseClass(v)))
 	}
 	return r
 }

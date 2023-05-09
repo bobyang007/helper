@@ -1,10 +1,10 @@
 package testdata
 
-import "github.com/apaxa-go/helper/unicodeh/bidih/internal/bidi"
+import "eval_helper/unicodeh/bidih/internal/bidi"
 
 type BidiTest struct {
-	Classes          []bidi.Class
-	ParagraphDirections []uint8// EmbeddingLevel
+	Classes             []bidi.Class
+	ParagraphDirections []uint8 // EmbeddingLevel
 }
 
 func (t *BidiTest) Runes() []rune {

@@ -1,6 +1,6 @@
 package testdata
 
-import "github.com/apaxa-go/helper/unicodeh/bidih/internal/bidi"
+import "eval_helper/unicodeh/bidih/internal/bidi"
 
 func init() { BidiTests = append(BidiTests, bidiTests016...) }
 

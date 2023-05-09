@@ -1,13 +1,13 @@
 package lib
 
 import (
-	"github.com/apaxa-go/helper/unicodeh/bidih/internal/bidi"
-	"github.com/apaxa-go/helper/unicodeh/rangetableh"
-	"github.com/apaxa-go/helper/unicodeh"
+	"eval_helper/unicodeh"
+	"eval_helper/unicodeh/bidih/internal/bidi"
+	"eval_helper/unicodeh/rangetableh"
 	"fmt"
 )
 
-func GenerateRuneSamples(){
+func GenerateRuneSamples() {
 	runeSamples := make([]rune, bidi.Count)
 
 	runeSamples[bidi.ArabicLetter] = rangetableh.Lo(unicodeh.BidiClassArabicLetter)
@@ -34,9 +34,9 @@ func GenerateRuneSamples(){
 	runeSamples[bidi.SegmentSeparator] = rangetableh.Lo(unicodeh.BidiClassSegmentSeparator)
 	runeSamples[bidi.WhiteSpace] = rangetableh.Lo(unicodeh.BidiClassWhiteSpace)
 
-	data:="// Sample runes for each BIDI class.\n"
-	data+="// Generated.\n"
-	data+=fmt.Sprintf("var runeSamples=%#v\n",runeSamples)
+	data := "// Sample runes for each BIDI class.\n"
+	data += "// Generated.\n"
+	data += fmt.Sprintf("var runeSamples=%#v\n", runeSamples)
 
-	saveFile("bidi-tests-runes-gen.go",pkgName,nil,[]byte(data))
+	saveFile("bidi-tests-runes-gen.go", pkgName, nil, []byte(data))
 }

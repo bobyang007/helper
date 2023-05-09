@@ -1,13 +1,13 @@
 package main
 
 import (
+	"eval_helper/unicodeh/bidih/internal/testdata/internal/generator/internal/lib"
 	"os"
-	"github.com/apaxa-go/helper/unicodeh/bidih/internal/testdata/internal/generator/internal/lib"
 )
 
-func main(){
-	const usage="Bad usage. Usage: \"maketables path-to-ucd-directory\""
-	if len(os.Args)!=2{
+func main() {
+	const usage = "Bad usage. Usage: \"maketables path-to-ucd-directory\""
+	if len(os.Args) != 2 {
 		panic(usage)
 	}
 	srcDir := os.Args[1]
