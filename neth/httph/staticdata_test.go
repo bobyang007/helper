@@ -1,7 +1,7 @@
 package httph
 
 import (
-	"helper/mimeh"
+	"github.com/bobyang007/helper/mimeh"
 	"net/http"
 	"net/http/httptest"
 	"testing"

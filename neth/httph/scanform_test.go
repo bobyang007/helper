@@ -2,7 +2,7 @@ package httph
 
 import (
 	"errors"
-	"helper/mathh"
+	"github.com/bobyang007/helper/mathh"
 	"net/http/httptest"
 	"net/url"
 	"os"

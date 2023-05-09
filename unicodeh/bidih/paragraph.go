@@ -1,7 +1,7 @@
 package bidih
 
 import (
-	"helper/unicodeh/bidih/internal/bidi"
+	"github.com/bobyang007/helper/unicodeh/bidih/internal/bidi"
 )
 
 // Rules P2 & P3

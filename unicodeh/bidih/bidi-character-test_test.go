@@ -1,8 +1,8 @@
 package bidih
 
 import (
-	"helper/unicodeh/bidih/internal/bidi"
-	"helper/unicodeh/bidih/internal/testdata"
+	"github.com/bobyang007/helper/unicodeh/bidih/internal/bidi"
+	"github.com/bobyang007/helper/unicodeh/bidih/internal/testdata"
 	"reflect"
 	"testing"
 )

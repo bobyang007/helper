@@ -2,7 +2,7 @@
 package stringsh
 
 import (
-	"helper/unicodeh"
+	"github.com/bobyang007/helper/unicodeh"
 	"strings"
 	"unicode/utf8"
 

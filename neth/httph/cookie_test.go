@@ -1,7 +1,7 @@
 package httph
 
 import (
-	"helper/timeh"
+	"github.com/bobyang007/helper/timeh"
 	"testing"
 )
 

@@ -1,9 +1,9 @@
 package lib
 
 import (
-	"helper/unicodeh"
-	"helper/unicodeh/bidih/internal/bidi"
-	"helper/unicodeh/rangetableh"
+	"github.com/bobyang007/helper/unicodeh"
+	"github.com/bobyang007/helper/unicodeh/bidih/internal/bidi"
+	"github.com/bobyang007/helper/unicodeh/rangetableh"
 	"fmt"
 )
 

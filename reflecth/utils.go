@@ -1,7 +1,7 @@
 package reflecth
 
 import (
-	"helper/goh/asth"
+	"github.com/bobyang007/helper/goh/asth"
 	"go/ast"
 	"reflect"
 )

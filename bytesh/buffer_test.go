@@ -2,7 +2,7 @@ package bytesh
 
 import (
 	"bytes"
-	"helper/testingh/iotesth"
+	"github.com/bobyang007/helper/testingh/iotesth"
 	"io"
 	"testing"
 	"testing/iotest"

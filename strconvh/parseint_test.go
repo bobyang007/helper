@@ -1,7 +1,7 @@
 package strconvh
 
 import (
-	"helper/mathh"
+	"github.com/bobyang007/helper/mathh"
 	"testing"
 )
 

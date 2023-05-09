@@ -1,6 +1,6 @@
 package testdata
 
-import "helper/unicodeh/bidih/internal/bidi"
+import "github.com/bobyang007/helper/unicodeh/bidih/internal/bidi"
 
 func init() { BidiTests = append(BidiTests, bidiTests000...) }
 

@@ -3,7 +3,7 @@
 package goutilh
 
 import (
-	"helper/strconvh"
+	"github.com/bobyang007/helper/strconvh"
 	"fmt"
 	"go/ast"
 	"go/printer"

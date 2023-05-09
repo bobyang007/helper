@@ -1,8 +1,8 @@
 package main
 
 import (
-	"helper/unicodeh"
-	"helper/unicodeh/rangetableh"
+	"github.com/bobyang007/helper/unicodeh"
+	"github.com/bobyang007/helper/unicodeh/rangetableh"
 	"fmt"
 	"go/format"
 	"io/ioutil"

@@ -4,7 +4,7 @@ package bytesh
 
 import (
 	"errors"
-	"helper/mathh"
+	"github.com/bobyang007/helper/mathh"
 	"io"
 	"math"
 )

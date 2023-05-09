@@ -1,7 +1,7 @@
 package reflecth
 
 import (
-	"helper/mathh"
+	"github.com/bobyang007/helper/mathh"
 	"go/token"
 	"reflect"
 	"testing"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"helper/unicodeh/bidih/internal/testdata/internal/generator/internal/lib"
+	"github.com/bobyang007/helper/unicodeh/bidih/internal/testdata/internal/generator/internal/lib"
 	"os"
 )
 

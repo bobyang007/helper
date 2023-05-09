@@ -1,8 +1,8 @@
 package reflecth
 
 import (
-	"helper/goh/asth"
-	"helper/strconvh"
+	"github.com/bobyang007/helper/goh/asth"
+	"github.com/bobyang007/helper/strconvh"
 	"go/ast"
 	"reflect"
 	"testing"

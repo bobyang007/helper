@@ -1,4 +1,4 @@
-module helper
+module github.com/bobyang007/helper
 
 go 1.19
 

@@ -1,7 +1,7 @@
 package strconvh
 
 import (
-	"helper/stringsh"
+	"github.com/bobyang007/helper/stringsh"
 	"strconv"
 	"strings"
 )

@@ -1,9 +1,9 @@
 package lib
 
 import (
-	"helper/mathh"
-	"helper/strconvh"
-	"helper/unicodeh/bidih/internal/bidi"
+	"github.com/bobyang007/helper/mathh"
+	"github.com/bobyang007/helper/strconvh"
+	"github.com/bobyang007/helper/unicodeh/bidih/internal/bidi"
 	"go/format"
 	"io/ioutil"
 	"strings"

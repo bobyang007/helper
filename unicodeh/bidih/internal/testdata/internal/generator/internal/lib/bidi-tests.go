@@ -2,10 +2,10 @@ package lib
 
 import (
 	"bytes"
-	"helper/mathh"
-	"helper/strconvh"
-	"helper/stringsh"
-	"helper/unicodeh/internal/ucd"
+	"github.com/bobyang007/helper/mathh"
+	"github.com/bobyang007/helper/strconvh"
+	"github.com/bobyang007/helper/stringsh"
+	"github.com/bobyang007/helper/unicodeh/internal/ucd"
 	"os"
 	"strings"
 )
@@ -111,7 +111,7 @@ func GenerateBidiTests(srcDir string) {
 		data := append(append([]byte(prefix), r[i]...), []byte(suffix)...)
 
 		fileName := "bidi-tests-" + iStr + "-gen.go"
-		imports := []string{"helper/unicodeh/bidih/internal/bidi"}
+		imports := []string{"github.com/bobyang007/helper/unicodeh/bidih/internal/bidi"}
 
 		saveFile(fileName, pkgName, imports, data)
 	}

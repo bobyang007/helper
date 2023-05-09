@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"helper/unicodeh/internal/ucd"
+	"github.com/bobyang007/helper/unicodeh/internal/ucd"
 	"fmt"
 	"go/format"
 	"io/ioutil"

@@ -1,7 +1,7 @@
 package name
 
 import (
-	"helper/stringsh"
+	"github.com/bobyang007/helper/stringsh"
 	"strings"
 	"unicode"
 	"unicode/utf8"

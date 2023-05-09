@@ -2,12 +2,12 @@ package main
 
 import (
 	"bytes"
-	"helper/strconvh"
-	"helper/stringsh"
-	is_generator "helper/unicodeh/internal/generator/is-generator"
-	"helper/unicodeh/internal/generator/name"
-	"helper/unicodeh/internal/generator/ucdparser"
-	"helper/unicodeh/rangetableh"
+	"github.com/bobyang007/helper/strconvh"
+	"github.com/bobyang007/helper/stringsh"
+	is_generator "github.com/bobyang007/helper/unicodeh/internal/generator/is-generator"
+	"github.com/bobyang007/helper/unicodeh/internal/generator/name"
+	"github.com/bobyang007/helper/unicodeh/internal/generator/ucdparser"
+	"github.com/bobyang007/helper/unicodeh/rangetableh"
 	"go/format"
 	"io/ioutil"
 	"os"

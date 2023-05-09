@@ -2,7 +2,7 @@ package ucdparser
 
 import (
 	"bufio"
-	"helper/unicodeh/internal/ucd"
+	"github.com/bobyang007/helper/unicodeh/internal/ucd"
 	"os"
 	"regexp"
 	"strings"

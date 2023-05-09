@@ -1,8 +1,8 @@
 package bidih
 
 import (
-	"helper/mathh"
-	"helper/unicodeh/bidih/internal/bidi"
+	"github.com/bobyang007/helper/mathh"
+	"github.com/bobyang007/helper/unicodeh/bidih/internal/bidi"
 )
 
 type EmbeddingLevel uint8

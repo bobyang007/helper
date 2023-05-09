@@ -1,7 +1,7 @@
 package constanth
 
 import (
-	"helper/mathh"
+	"github.com/bobyang007/helper/mathh"
 	"go/constant"
 	"math"
 )

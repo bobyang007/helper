@@ -1,7 +1,7 @@
 package filepathh
 
 import (
-	"helper/ioh/ioutilh"
+	"github.com/bobyang007/helper/ioh/ioutilh"
 	"os"
 	"path/filepath"
 )

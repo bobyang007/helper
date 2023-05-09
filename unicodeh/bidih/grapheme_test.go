@@ -4,7 +4,7 @@ package bidih
 
 import (
 	"testing"
-	"helper/unicodeh/bidih/internal/testdata"
+	"github.com/bobyang007/helper/unicodeh/bidih/internal/testdata"
 	"reflect"
 )
 
